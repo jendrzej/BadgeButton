@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeButton">
+        <attr name="bb_color" format="color" />
+        <attr name="bb_icon" format="reference" />
+        <attr name="bb_elevation" format="dimension"/>
+        <attr name="bb_badgeColor" format="color" />
+        <attr name="bb_badgeStrokeColor" format="color" />
+        <attr name="bb_badgeStrokeWidth" format="dimension" />
+        <attr name="bb_size">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="bb_badgeTextColor" format="color" />
+    </declare-styleable>
+</resources>
